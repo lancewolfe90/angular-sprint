@@ -11,6 +11,6 @@ export class WeatherService {
   constructor(private http: HttpClient) { }
 
   getWeather(): Observable<any>  {
-    return this.http.get('https://www.metaweather.com/api/location/search/?query=san')
+    return this.http.get('http://jsonplaceholder.typicode.com/posts/1/comments')
   }
 }

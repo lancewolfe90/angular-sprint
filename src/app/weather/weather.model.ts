@@ -1,6 +1,7 @@
 export interface Weather {
-    title: string,
-    location_type: string,
-    woeid: number,
-    latt_long: string
+    postId: number,
+    id: number,
+    name: string,
+    email: string,
+    body: string
 }
