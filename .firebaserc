@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-sprint": {
+      "hosting": {
+        "angular-sprint": [
+          "angular-sprint"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-sprint"
+  }
+}
